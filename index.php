@@ -13,8 +13,9 @@
     <div class="container w-90 mg-side-auto">
         <?php
         // Get the current day using PHP
-        // $currentDay = date('l');
+        // $currentDay = date('l'); //this will resutl Monday, the day with the Capslock
         $currentDay = strtolower(date('l'));
+        // $currentDay = 'sunday'; //This to test if i change the current day manually
 
         // Days in a week array
         $daysOfWeek = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
