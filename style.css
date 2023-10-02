@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0 !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e8e8e8;
+}
+
+li {
+  list-style: none;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.mg-side-auto {
+  margin: 0 auto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.color-green {
+  color: green;
+}
+
+.color-blue {
+  color: #1781fa;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  text-align: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+li.current-day {
+  background-color: green !important;
+}
+
+.array-wrapper .week-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #bfbfbf;
+  padding: 20px;
+}
+
+.array-wrapper .week-wrapper li {
+  padding: 20px;
+  color: white;
+  background: #1781fa;
+  text-transform: capitalize;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-out;
+  box-shadow: 4px 4px 24px -5px rgba(0, 0, 0, 0);
+}
+
+.selected-day {
+  border-color: white !important;
+  box-shadow: 4px 4px 24px -5px rgba(0, 0, 0, 0.75) !important;
+  transition: all 0.3s ease-out;
+}
